@@ -1,11 +1,12 @@
 import React from 'react'
 import {Nav, NavLink} from './NavbarElements'
 
-function Navbar() {
+function Navbar({toggle}) {
     return (
         <>
             <Nav>
-                <NavLink to='/'>Sushi</NavLink>
+                <NavLink to='/'>Dragon sushi</NavLink>
+               
             </Nav>
         </>
     );
