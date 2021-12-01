@@ -46,4 +46,9 @@ export const NavIcon = styled.div`
         
     }
 
+    @media screen and (max-width: 550px)
+    {
+       margin-left: 150px;
+    }
+
 `;

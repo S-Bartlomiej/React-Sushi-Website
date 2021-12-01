@@ -8,7 +8,6 @@ function Navbar({toggle}) {
                 <NavLink to='/'>Dragon sushi</NavLink>
                 <NavIcon onClick={toggle}>
                     <p>Menu</p>
-                    
                 </NavIcon>
             </Nav>
         </>
