@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {NavLink as Link} from 'react-router-dom';
-import { FaFirstOrderAlt } from 'react-icons/fa'
+
 
 
 export const Nav = styled.nav`
@@ -18,12 +18,14 @@ export const NavLink = styled(Link)`
     align-items: center;
     text-decoration: none;
     cursor: pointer;
+    margin-top: 75px;
 
     @media(max-width: 320x) 
     {
         position: absolute;
         top: 10px;
         left: 25px;
+      
     }
 
 `;
@@ -40,13 +42,8 @@ export const NavIcon = styled.div`
     p {
         transform: translate(-175%, 100%);
         font-weight: bold;
+        font-size: 1.5rem;
+        
     }
-
-`;
-
-export const Bars = styled(FaFirstOrderAlt)`
-
-    font=size: 2rem;
-    transform: translate(-50%, -15%)
 
 `;

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, NavLink, NavIcon, Bars} from './NavbarElements'
+import {Nav, NavLink, NavIcon} from './NavbarElements'
 
 function Navbar({toggle}) {
     return (
@@ -8,7 +8,7 @@ function Navbar({toggle}) {
                 <NavLink to='/'>Dragon sushi</NavLink>
                 <NavIcon onClick={toggle}>
                     <p>Menu</p>
-                    <Bars />
+                    
                 </NavIcon>
             </Nav>
         </>
