@@ -9,10 +9,10 @@ import {
           SideBtnWrap
         } from './SideBarElements'
 
-function SideBar() {
+function SideBar( {isOpen, toggle} ) {
     return (
         
-        <SidebarContainer>
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
                 <Icon>
                     <CloseIcon />
                 </Icon>
