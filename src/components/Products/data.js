@@ -1,3 +1,8 @@
+import product1 from '../../Images/sushi-maki.png'
+import product2 from '../../Images/sushi-nigiri.png'
+import product3 from '../../Images/sushi-sashimi.png'
+import product4 from '../../Images/sushi-uramaki.png'
+
 export const productData = [
     
     {
