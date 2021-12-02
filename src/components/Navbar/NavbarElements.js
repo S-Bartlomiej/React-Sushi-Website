@@ -28,6 +28,11 @@ export const NavLink = styled(Link)`
       
     }
 
+    @media (min-width: 320px) and (max-width: 500px)
+    {
+        margin-top: 150px;
+    }
+
 `;
 
 export const NavIcon = styled.div`
@@ -43,6 +48,7 @@ export const NavIcon = styled.div`
         transform: translate(-175%, 100%);
         font-weight: bold;
         font-size: 1.5rem;
+        margin-right: -50px;
         
     }
 
