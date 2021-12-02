@@ -5,6 +5,7 @@ import { GlobalStyle } from './globalStyles';
 import Hero from './components/Hero';
 import Products from './components/Products'
 import { productData } from './components/Products/data'
+import Feature from './components/Feature'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <GlobalStyle />  
              <Hero />
              <Products heading = 'Our delicious Sushi' data={productData}/>
+             <Feature />
     </Router>
     </>
   );
