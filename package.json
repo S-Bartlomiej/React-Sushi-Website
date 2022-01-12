@@ -1,7 +1,7 @@
 {
   "name": "x",
   "version": "0.1.0",
-  "homepage": "www.bartlomiejstypula.pl",
+  "homepage": "bartlomiejstypula.pl",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
